@@ -1,0 +1,107 @@
+body {
+    background-image: url(assets/topography.png);
+    font-family: 'Courier', serif;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    width: 90%;
+    
+}
+img{
+    float:left;
+    padding-bottom: 0px;
+}
+#subPagesLinks {
+    
+    background: #333333;
+    margin: 35px 15px;
+    padding: 10px;
+    font-size: 26px;
+    width: 90%;
+    height: 75px;
+    color: white;
+    position: fixed;
+    top: 0;
+    
+}
+#buttons {
+    position: absolute;
+    right: 0px;
+    width: 580px;
+    padding-right: 1%;
+    padding-top: 25px;
+}
+#subPagesLinks a{
+
+    width: 150px;
+    height: auto;
+    border: 1px solid white;
+    padding: 15px 20px;
+    margin: 10px 2px ;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    /*position: absolute;*/
+    /*float: right;*/
+    /*overflow:visible;*/
+    text-decoration: none;
+    
+}
+#subPagesLinks a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+#Introduction h1{
+    
+    font-size: 100px;
+    padding: 20px;
+    padding-top: 0px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    
+}
+
+#break {
+    text-align: center;
+    padding: 35px;
+}
+
+#Introduction h2{
+    text-decoration: underline;
+    margin-top : 175px;
+    padding: 20px;
+    font-size: 32px;
+    
+}
+
+#Introduction p{
+    
+    font-size: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0px
+    
+}
+
+#definitions {
+    text-align: justify;
+    font-size: 18px;
+    padding-left: 20px;
+    padding-right: 50px;
+    margin: 0px
+    
+}
+
+#definitions h2 {
+    font-size: 34px;
+}
+
+#definitions dt{
+    
+    font-weight: bold;
+    text-decoration: underline;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    
+}
